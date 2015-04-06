@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = electionbot
+omit = electionbot/tests/*,electionbot/openstack/*
+
+[report]
+ignore-errors = True
