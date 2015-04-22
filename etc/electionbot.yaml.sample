@@ -1,0 +1,31 @@
+wiki:
+  - site: wiki.openstack.org
+  - username: electionbot
+  - password: password
+
+ml:
+  openstack-dev@lists.openstack.org
+
+mail:
+  username: mail
+  password: mail_pass
+  server: small_imap_server.o.o
+  ssl: True
+  bot_addr: electionbot@openstack.org
+
+elections:
+  - name: 'PTL Election April 2015'
+    wikipage: PTL_Elections_April_2015
+    nom_start_date: 04-02-2015 00:00
+    nom_end_date: 04-09-2015 06:00
+    elec_start_date: 04-10-2015 00:00
+    elec_stop_date: 04-17-2015 00:00
+    contributor_cutoff: 10-16-2014 00:00
+    confirmed_msg: Candidacy confirmed
+    email_subject: ^\[(.*)\]\s*PTL Candidacy
+    officials:
+      - Tristan Cacqueray (tristanC) tristan dot cacqueray at enovance dot com
+      - Elizabeth K. Joseph (pleia2) lyz at princessleia dot com
+    projects:
+      - projects-file: projects.yaml
+      - extra_project
